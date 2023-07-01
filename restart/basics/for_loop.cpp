@@ -78,26 +78,37 @@ int main(){
 
 
     /*
-        // check weather a number is a  prime numbers
-    */
-
-    int n=101;
-    bool flag=true;
-    for(int i=1; i<=(n/2); i++){
+        // check weather a number is a  prime numbers using flag
+    int n=13;
+    
+    bool flag=1;
+    
+    for(int i=2; i<=(n/2); i++){
         if(n%i==0){
-            flag=false;
+            flag=0;
             break;
         }
     }
-    cout<< flag;
-    flag =false;
-    cout<< flag;
     
-    if(flag==true){
-        cout<<"is prime";
+    if(flag){
+        cout<<"is a prime number"<<endl;
     }else{
-        cout<<"is not prime";
+        cout<<"not a prime number"<<endl;
     }
+    */
+
+
+    int n=5;
+    for(int i=1;i<=n; i++){
+        cout<<"HI"<<endl;
+        cout<<"Hello"<<endl;
+
+        continue;
+        // Any code after continue will be skipped
+
+        cout<<"Bye"<<endl;
+    }
+    
     
     return 0;
 }
