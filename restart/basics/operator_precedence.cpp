@@ -18,8 +18,5 @@ int main(int argc, char const *argv[])
     }
     cout<<endl;
     cout<<"sum:\t "<<sum<<" mul:\t "<<mul<<endl;
-    
-
-    
     return 0;
 }
