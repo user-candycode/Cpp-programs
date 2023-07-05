@@ -59,8 +59,12 @@ int main(){
     //     }
     // }
 
-    cout<< INT_MAX<<endl;
-    cout<<INT_MIN<<endl;
+
+
+    // cout<< INT_MAX<<endl;
+    // cout<<INT_MIN<<endl;
+
+
 
     cout<<endl;
     return 0;
