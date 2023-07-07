@@ -18,8 +18,7 @@ void method1(int n){
         cout<<"is in power of 2"<<endl;
     }else{
         cout<<"not in the power of 2"<<endl;
-    }
-    
+    }  
 }
 
 
