@@ -66,6 +66,21 @@ int main(){
 
 
 
+    // bool b=0;
+    // cout<<b;
+    // // b++; // not possible with boolean values
+    // cout<<b;
+
+
+
+
+    // int arr[]={1,2,3,4.6}; // float values cant be inserted compile time error
+    // for(int i=0;i<5;i++){
+    //     cout<<arr[i]<<" ";
+    // }
+
+
+
     cout<<endl;
     return 0;
 }
