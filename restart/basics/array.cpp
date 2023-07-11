@@ -56,6 +56,13 @@ void revArr(int arr[],int size){
     }
 }
 
+void swapAlternative(int arr[],int size){
+    for(int i=0;i<size;i+=2){
+        if( (i+1)<size ){
+            swap(arr[i],arr[i+1]);
+        }
+    }
+}
 
 void findUnique(){
 
@@ -111,6 +118,13 @@ int main(){
     // cout<<"\nsecond array....."<<endl;
     // revArr(brr,5);
     // printArray(brr,5);
+
+// swap alternative
+    // int arr[10]={3,5,7,3,2,9,4};
+    // int size = 7;
+    // swapAlternative(arr,size);
+    // printArray(arr,size);
+
 
 
 
