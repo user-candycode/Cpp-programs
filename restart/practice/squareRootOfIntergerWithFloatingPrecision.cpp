@@ -17,6 +17,7 @@ int square_root(int n){
         
     }
     return ans;
+    // number line approach where there is a definate answer to be found at some point on this number line
 }
 
 int main(){
