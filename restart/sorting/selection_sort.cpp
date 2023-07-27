@@ -11,7 +11,7 @@ int main(){
         cout<<arr[i]<<",";
     }
     cout<<endl;
-
+    // pick first element then find the smallest element in the rest of the array and swap at the end then continue the cycle for i+1 element
     int i=0;
     while (i<arr.size())
     {
