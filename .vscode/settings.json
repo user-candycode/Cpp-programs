@@ -47,5 +47,7 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "code-runner.enableAppInsights": false,
+    "code-runner.clearPreviousOutput": true
 }
