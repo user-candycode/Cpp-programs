@@ -13,10 +13,11 @@ class Car{
 };
 
 class SportsCar:public Car{
-
+    
 };
 
 int main(){
-    
+    SportsCar obj;
+
     return 0;
 }
