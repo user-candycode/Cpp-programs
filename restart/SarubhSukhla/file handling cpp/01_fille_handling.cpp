@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     ofstream fout;
     fout.open("myfile.dat");
-    fout<<"hello";
+    fout<<"hello students";
     fout.close();
     return 0;
 }
