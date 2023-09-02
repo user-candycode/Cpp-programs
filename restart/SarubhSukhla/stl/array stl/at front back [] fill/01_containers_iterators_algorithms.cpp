@@ -1,5 +1,5 @@
 #include<iostream>
-#include<list>
+#include<list> // stl library for list
 
 using namespace std;
 
